@@ -1,1 +1,1 @@
-# Creating and Connecting to Database
+# JPA and @Entity
