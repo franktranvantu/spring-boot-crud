@@ -1,1 +1,1 @@
-# Simple API with Spring Boot
+# Student Class
