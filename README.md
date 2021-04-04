@@ -1,1 +1,1 @@
-# JPA in Action
+# JPA Repository
