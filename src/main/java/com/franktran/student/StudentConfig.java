@@ -14,9 +14,9 @@ public class StudentConfig {
   @Bean
   public CommandLineRunner commandLineRunner(StudentRepository studentRepository) {
     return args -> {
-      Student frank = new Student("Frank", "frank@gmail.com", LocalDate.of(1992, Month.SEPTEMBER, 12), 28);
-      Student henry = new Student("Henry", "henry@gmail.com", LocalDate.of(1984, Month.JANUARY, 21), 34);
-      Student bean = new Student("Bean", "bean@gmail.com", LocalDate.of(1984, Month.APRIL, 9), 34);
+      Student frank = new Student("Frank", "frank@gmail.com", LocalDate.of(1992, Month.SEPTEMBER, 12));
+      Student henry = new Student("Henry", "henry@gmail.com", LocalDate.of(1984, Month.JANUARY, 21));
+      Student bean = new Student("Bean", "bean@gmail.com", LocalDate.of(1984, Month.APRIL, 9));
       studentRepository.saveAll(List.of(frank, henry, bean));
     };
   }
