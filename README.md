@@ -1,1 +1,1 @@
-# Properties file
+# Creating and Connecting to Database
