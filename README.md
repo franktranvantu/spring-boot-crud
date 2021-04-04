@@ -1,1 +1,1 @@
-# JPA and @Entity
+# JPA in Action
